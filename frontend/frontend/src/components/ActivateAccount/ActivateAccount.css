@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+#check {
+    width: 20%;
+}
+
+.validation {
+    text-align: center;
+}
+
+#sign-in {
+    font-size: xx-large;
+    font-weight: bolder;
+    border: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    padding: 0.2em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}

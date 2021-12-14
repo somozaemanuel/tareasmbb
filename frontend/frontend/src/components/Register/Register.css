@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.icon {
+    font-size: 1.5em;
+    padding-right: 0.1em;
+    margin-left: 0.3em;
+}
+
+.spinner {
+    font-size: 1em;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.input {
+    border-right: none;
+    /* border: none; */
+}
+
+.input:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.input-icons {
+    padding: 0;
+    background-color: white;
+    border-left: none;
+    /* border: none; */
+}
+
+.terms-conditions {
+    display: inline;
+    padding: 0;
+}
+
+.icon-message {
+    font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.test {
+    text-align: center;
+    padding-left: 0.5em;
+}
+
+.required-password-fields {
+    font-size: small;
+    color: rgb(248, 42, 42)
+}
+
+.required-item {
+    padding-right: 1em;
+    padding-top: 0;
+}
+
+.modal-80w {
+    width: 80em;
+    size: 80em;
+}
+
+#contenedor {
+    background-color: rgb(237, 235, 243);
+}

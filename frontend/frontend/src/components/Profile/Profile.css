@@ -1,0 +1,52 @@
+#banner {
+    height: 13em;
+    width: 100vw;
+    min-width: 100vw;
+    min-height: 13em;
+}
+
+#bg {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#profilePic {
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#imagePreview {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#personalData {
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.cropped2 {
+    width: 13em;
+    height: 13em;
+    min-width: 13em;
+    min-height: 13em;
+    object-fit: cover;
+    object-position: 20% 10%;
+    overflow: hidden;
+}
+
+#alert {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.cursor:hover {
+    cursor: pointer;
+    opacity: 80%;
+}

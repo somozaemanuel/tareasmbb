@@ -1,0 +1,38 @@
+#signin-form {
+    padding-top: 10%;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+#bg {
+    padding-top: 0%;
+}
+
+#bad-login-alert {
+    margin-top: 5%;
+}
+
+#card {
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#contenedor {
+    border-radius: 0em;
+    width: 40%;
+    border-color: rgb(0, 0, 0);
+    border-radius: 0.5em;
+    border-width: 0em;
+    border-style: solid;
+    padding: 1%;
+}
+
+#login-button {
+    background-color: black;
+    border-color: rgb(188, 219, 231);
+}
+
+.inline {
+    display: inline;
+}
