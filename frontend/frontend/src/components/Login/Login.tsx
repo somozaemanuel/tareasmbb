@@ -4,7 +4,7 @@ import "./Login.css";
 import axios from "axios";
 import store from "../../store/store";
 import { ProfileResponse } from "../../types/types";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import authSlice from "../../store/slices";
 import FETCH_URL from "../../utils/fetchurl";
 
@@ -27,11 +27,7 @@ function Login(): JSX.Element {
                 id: res.data.profile.id,
                 name: res.data.profile.name,
                 surname: res.data.profile.surname,
-                bio: res.data.profile.bio,
-                user: res.data.profile.user,
-                tel: res.data.profile.tel,
-                address: res.data.profile.address,
-                picture: res.data.profile.picture,
+                user: res.data.profile.user
             };
 
             store.dispatch(

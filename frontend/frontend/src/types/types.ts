@@ -5,11 +5,7 @@ export interface ProfileResponse {
       id: bigint;
       name: string;
       surname: string;
-      bio: string;
-      address: string;
-      tel: string;
       user: bigint;
-      picture: string;
 }
 
 
