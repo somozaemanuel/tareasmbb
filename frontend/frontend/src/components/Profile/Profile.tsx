@@ -28,7 +28,6 @@ function Profile(): JSX.Element {
         setName(store.getState().auth.profile?.name);
         setSurname(store.getState().auth.profile?.surname);
         setFile(store.getState().auth.profile?.user);
-        console.log(store.getState().auth.profile?.picture);
     };
 
     useEffect(() => {
